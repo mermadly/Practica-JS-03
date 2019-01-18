@@ -18,17 +18,17 @@
 
 var i;
 
-for (i = 0; i < 5; i++) { 
-    console.log ('Hola ' + i);
-}
+// for (i = 0; i < 5; i++) { 
+//     console.log ('Hola ' + i);
+// }
 
 var listaNombres =  ['Mica', 'Vicki', 'Cata', 'Mar', 'Aldi'];
 
-var humanaDeAda =  listaNombres  [4];
+// var humanaDeAda =  listaNombres  [4];
 
-console.log (humanaDeAda);
+// console.log (humanaDeAda);
 
-console.log(listaNombres.length);
+// console.log(listaNombres.length);
 
 for (var i = 0; i < listaNombres.length; i++) {
     // instrucción que quiero repetir
