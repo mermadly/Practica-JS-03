@@ -8,3 +8,7 @@ while (numero <= 1000) {
     }
  numero++;
 }
+
+// Tratar de resolver con + 2 y sin if
+
+

@@ -1,9 +1,11 @@
 var asterisco = "*";
 
-while (asterisco != "**************") {
+while (asterisco != "***************") {
     console.log (asterisco);
     asterisco += "*";
 }
+
+// Para la condición se puede usar asterisco.length <= 15
 
 
 // var numero = 0;
@@ -15,3 +17,4 @@ while (asterisco != "**************") {
 
 //     numero++;
 // }
+
