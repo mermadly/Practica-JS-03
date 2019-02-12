@@ -9,13 +9,13 @@ var alumnas = [
     'Jimena'
    ];
 
-   var alumnasMay;
+   var iniciales;
    var nombres;
 
    for (var i = 0; i < alumnas.length; i++) {
-    alumnasMay = (alumnas[i].charAt(0)).toUpperCase();
+    iniciales = (alumnas[i].charAt(0)).toUpperCase();
     nombres = alumnas[i].slice(1, alumnas[i].length);
-    console.log (alumnasMay+nombres);
+    console.log (iniciales + nombres);
     // alumnasMay = alumnasMay + alumnas[i];
     // console.log (alumnasMay.substring(1,2));
 
