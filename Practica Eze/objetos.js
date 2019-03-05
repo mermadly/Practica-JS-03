@@ -85,3 +85,38 @@ persona4.darPlata(persona3);
 
 console.log(persona2.billetera);
 console.log(persona3.billetera);
+
+
+// Propiedades dinámicas
+// persona.nombre === persona['nombre']
+// var propNombre = 'nombre'
+// persona.nombre === persona['nombre'] === persona[propNombre]
+
+
+// Métodos
+// object keys me devuelve un array con las propiedades del objeto (no los valores)
+
+var personas = {
+    nombre: 'Ada',
+    edad: 27
+}
+
+console.log(Object.keys(personas));
+
+var propiedades = Object.keys(personas);
+
+for (var i = 0; i < propiedades.length; i++) {
+
+    if (personas[propiedades[i]] === 'Ada') {
+        console.log ('Hola ' + personas[propiedades[i]])
+    }
+
+}
+
+
+for (var i = 0; i < propiedades.length; i++) {
+    if (propiedades[i] == 'nombre') {
+        console.log ('La propiedad', propiedades[i], 'es', personas[propiedades[i]])
+    }
+
+}
